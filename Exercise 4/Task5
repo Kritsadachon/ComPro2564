@@ -1,0 +1,9 @@
+print('enter number : ',end = " ")
+number_input = int(input())
+
+i=1
+while i<=12:
+    print(number_input,end = " x ")
+    print(i , end = " = ")
+    print(number_input*i)
+    i+=1
