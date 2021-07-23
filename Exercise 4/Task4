@@ -1,0 +1,7 @@
+print('enter number : ',end = " ")
+number_input = int(input())
+
+i=1
+while i<=number_input:
+    print(i ,end= "")
+    i+=1
