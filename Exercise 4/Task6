@@ -1,0 +1,8 @@
+print('enter number : ',end = " ")
+number_input = int(input())
+
+for i in range(number_input,51,number_input):
+    if (i%number_input==0):
+        print(i , end = " ")
+    else:
+     continue
